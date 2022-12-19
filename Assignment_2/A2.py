@@ -1,5 +1,5 @@
 import pandas as pd
-dataset=pd.read_csv(r'G:\DM_practicals\Vishwanath_DM\Assign_2\Vishwanath.csv')
+dataset=pd.read_csv(r'C:\Users\Vishwanath\Practicals---\Data_Mining_Practicals_sem5\Assignment_2\Vishwanath.csv')
 dataset
 x=dataset['Remark']
 x
