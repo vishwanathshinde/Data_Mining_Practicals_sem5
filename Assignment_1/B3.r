@@ -11,4 +11,5 @@ factor(stud_roll)
 # Combined factor
 combined <- factor(c(stud_name, stud_roll))
 
-print("Combined factor is: ", combined)
+print("Combined factor is: ")
+print(combined)
