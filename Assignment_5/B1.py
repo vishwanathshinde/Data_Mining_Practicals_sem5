@@ -1,6 +1,6 @@
 import pandas
 from sklearn import linear_model
-df = pandas.read_csv("data.csv")
+df = pandas.read_csv(r"C:\Users\Vishwanath\Practicals---\Data_Mining_Practicals_sem5\Assignment_5\carsm.csv")
 X = df[['Weight', 'Volume']]
 y = df['CO2']
 regr = linear_model.LinearRegression()
